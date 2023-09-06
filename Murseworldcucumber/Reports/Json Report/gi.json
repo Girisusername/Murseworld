@@ -1,0 +1,414 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-14T16:19:14.148Z",
+        "line": 3,
+        "name": "to validate the login functionality of valid username and password",
+        "description": "",
+        "id": "validate-the-login-functionlity-and-add-the-product-to-cart;to-validate-the-login-functionality-of-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55827811700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user have to check launch the url",
+            "match": {
+              "location": "Stepdefenition.userHaveToCheckLaunchTheUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13825882400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user have to login with valid email and password",
+            "match": {
+              "location": "Stepdefenition.userHaveToLoginWithValidEmailAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61487601800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to choose the product",
+            "match": {
+              "location": "Stepdefenition.userHaveToChooseTheProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50222104800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to select the size and colour",
+            "match": {
+              "location": "Stepdefenition.userHaveToSelectTheSizeAndColour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227172000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to click the add to cart",
+            "match": {
+              "location": "Stepdefenition.userHaveToClickTheAddToCart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "validate the login functionlity and add the product to cart",
+    "description": "",
+    "id": "validate-the-login-functionlity-and-add-the-product-to-cart",
+    "keyword": "Feature",
+    "uri": "file:Feature/murseworld.feature",
+    "tags": [
+      {
+        "name": "@sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-14T16:22:15.783Z",
+        "line": 13,
+        "name": "",
+        "description": "to  signin the functionality with valid email and valid password",
+        "id": "validate-the-login-functionlity-in-murseworld;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39046070300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user have to launch the murseworld URL",
+            "match": {
+              "location": "Stepdefenition.userHaveToLaunchTheMurseworldURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4998084000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to enter the valid \"mailgirisinbox@gmail.com\" and valid \"Mailgiri@12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mailgirisinbox@gmail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Mailgiri@12\"",
+                  "offset": 66
+                }
+              ],
+              "location": "Stepdefenition.userHaveToEnterTheValidAndValid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7080933000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to click the signin button",
+            "match": {
+              "location": "Stepdefenition.userHaveToClickTheSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17160000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to verify the signin functionlity",
+            "match": {
+              "location": "Stepdefenition.userHaveToVerifyTheSigninFunctionlity()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-14T16:23:06.934Z",
+        "line": 14,
+        "name": "",
+        "description": "to  signin the functionality with valid email and valid password",
+        "id": "validate-the-login-functionlity-in-murseworld;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 47880197600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user have to launch the murseworld URL",
+            "match": {
+              "location": "Stepdefenition.userHaveToLaunchTheMurseworldURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3611088300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to enter the valid \"nailgiri@gmail.com\" and valid \"nailajaj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nailgiri@gmail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"nailajaj\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Stepdefenition.userHaveToEnterTheValidAndValid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12230301500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to click the signin button",
+            "match": {
+              "location": "Stepdefenition.userHaveToClickTheSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28619300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to verify the signin functionlity",
+            "match": {
+              "location": "Stepdefenition.userHaveToVerifyTheSigninFunctionlity()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-14T16:24:10.688Z",
+        "line": 15,
+        "name": "",
+        "description": "to  signin the functionality with valid email and valid password",
+        "id": "validate-the-login-functionlity-in-murseworld;;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 44627674600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user have to launch the murseworld URL",
+            "match": {
+              "location": "Stepdefenition.userHaveToLaunchTheMurseworldURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9276346100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to enter the valid \"ebiasbdiu@gmail.com\" and valid \"aiUsdiU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ebiasbdiu@gmail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"aiUsdiU\"",
+                  "offset": 61
+                }
+              ],
+              "location": "Stepdefenition.userHaveToEnterTheValidAndValid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16829108800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to click the signin button",
+            "match": {
+              "location": "Stepdefenition.userHaveToClickTheSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18223700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to verify the signin functionlity",
+            "match": {
+              "location": "Stepdefenition.userHaveToVerifyTheSigninFunctionlity()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-14T16:25:21.443Z",
+        "line": 16,
+        "name": "",
+        "description": "to  signin the functionality with valid email and valid password",
+        "id": "validate-the-login-functionlity-in-murseworld;;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97766724500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user have to launch the murseworld URL",
+            "match": {
+              "location": "Stepdefenition.userHaveToLaunchTheMurseworldURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12464014300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to enter the valid \"QUGFIDHAJK@gmail.com\" and valid \"dvihdiu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QUGFIDHAJK@gmail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"dvihdiu\"",
+                  "offset": 62
+                }
+              ],
+              "location": "Stepdefenition.userHaveToEnterTheValidAndValid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7098361900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to click the signin button",
+            "match": {
+              "location": "Stepdefenition.userHaveToClickTheSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15955300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to verify the signin functionlity",
+            "match": {
+              "location": "Stepdefenition.userHaveToVerifyTheSigninFunctionlity()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "validate the login functionlity in murseworld",
+    "description": "",
+    "id": "validate-the-login-functionlity-in-murseworld",
+    "keyword": "Feature",
+    "uri": "file:Feature/murseworldlogin.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

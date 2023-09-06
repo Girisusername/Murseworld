@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-05T07:44:12.207Z",
+        "line": 3,
+        "name": "to validate the login functionality of valid username and password",
+        "description": "",
+        "id": "validate-the-login-functionlity-and-add-the-product-to-cart;to-validate-the-login-functionality-of-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82205129800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user have to check launch the url",
+            "match": {
+              "location": "Stepdefenition.userHaveToCheckLaunchTheUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11217053300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user have to login with valid email and password",
+            "match": {
+              "location": "Stepdefenition.userHaveToLoginWithValidEmailAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58184846700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to choose the product",
+            "match": {
+              "location": "Stepdefenition.userHaveToChooseTheProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26232620000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to select the size and colour",
+            "match": {
+              "location": "Stepdefenition.userHaveToSelectTheSizeAndColour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227823900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to click the add to cart",
+            "match": {
+              "location": "Stepdefenition.userHaveToClickTheAddToCart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "validate the login functionlity and add the product to cart",
+    "description": "",
+    "id": "validate-the-login-functionlity-and-add-the-product-to-cart",
+    "keyword": "Feature",
+    "uri": "file:Feature/murseworld.feature",
+    "tags": [
+      {
+        "name": "@sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
